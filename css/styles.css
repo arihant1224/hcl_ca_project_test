@@ -1,0 +1,135 @@
+/* home.php */
+.welcome-p {
+    width: 70%;
+    text-align: center;
+}
+hr {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+/* login.php */
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.login-body {
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+    
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+    
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+    
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+    
+.card-header h3 {
+    color: white;
+}
+    
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+    
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+    
+input:focus {
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+    
+.remember {
+    color: white;
+}
+    
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+    
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+    
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+    
+.links {
+    color: white;
+}
+    
+.links a {
+    margin-left: 4px;
+}
+
+/* plans.php */
+.plan-card {
+    height: 225px;
+    width: 190px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.plan-card-img {
+    height: 120px;
+    width: 100%;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.uc-count {
+    font-weight: 600;
+    font-size: 18px;
+}
+.buy-btn {
+    font-weight: 700;
+    width: 60%;
+}
+.buy-btn-2 {
+    font-weight: 600;
+    width: 80%;
+}
+
+/* shop.php */
+.plan-card-2 {
+    height: 280px;
+    width: 200px;
+}
+.plan-card-img-2 {
+    height: 150px;
+}
