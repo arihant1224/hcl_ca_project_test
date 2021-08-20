@@ -14,21 +14,7 @@ session_start();
 <body>
     <div class="d-flex align-items-end flex-column">
         <h6 class="me-4 mt-2">
-            <?php if (isset($_SESSION['email'])){ ?>
-                <a href="home.php" class="me-2">Home</a>
-                |
-                <a href="userProfile.php" class="ms-2 me-2">Profile</a>
-                |
-                <a href="shop.php" class="ms-2 me-2">Shop</a>                
-                |
-                <a href="home.php?logout='1" class="ms-2">Logout</a>
-            <?php }else { ?>
-                <a href="home.php" class="me-2">Home</a>
-                |
-                <a href="shop.php" class="ms-2 me-2">Shop</a>
-                |
-                <a href="login.php" class="ms-2">Login</a>
-            <?php } ?>
+             <?php include("nav.php"); ?>
         </h6>
     </div>
     <div class="d-flex align-items-center flex-column">
