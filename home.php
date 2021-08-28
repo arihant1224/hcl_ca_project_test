@@ -20,23 +20,23 @@ if (isset($_GET['logout'])){
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body style="background-image: linear-gradient(to right top, #d1f2e6, #c9f5dc, #c8f6ce, #ccf6bc, #d7f5a9, #d9f3a1, #dbf19a, #deef92, #d4ee95, #caed98, #c0ec9c, #b7eba0);>
     <div class="d-flex align-items-end flex-column">
         <h6 class="me-4 mt-2">
             <?php include("nav.php"); ?>
         </h6>
     </div>
     <div class="container">
-    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3500">
         <div class="carousel-inner">
             <div class="carousel-test"></div>
 
             <div class="carousel-item active">
                 <img class="d-block w-100" src="images/ausStadium.jpg" alt="">
                 <div class="carousel-overlay">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block" >
                         <h2 class="py-2 text-left">Welcome</h2>
-                        <p class="text-left">Lorem ipsum dolor amet cornhole venmo knausgaard locavore listicle cray cloud bread poutine beard flannel irony flexitarian skateboard food truck. Pork belly enamel pin gluten-free blue bottle readymade jianbing thundercats prism, DIY mlkshk single-origin coffee jean shorts sustainable lo-fi. Before they sold out freegan subway tile migas, pug pabst PBRB. Succulents asymmetrical dreamcatcher cronut, kogi poke keytar humblebrag. Flannel fanny pack DIY iceland everyday carry. PBRB chicharrones pitchfork microdosing, raclette direct trade scenester swag artisan messenger bag air plant. Kogi polaroid mumblecore cardigan beard humblebrag poke neutra tilde slow-carb snackwave art party.</p>
+                        <p class="text-left" style="margin-bottom: 150px;">Hi There , Welcome to Fan enagement 2.0 . This is a fan website which is developed by a group of cricket enthusiasts . You can test your knowledge about your favorite player and earn some points if you are right about it . You can also buy you favorite merchandise. What are you waiting for ? Sign up now !  </p>
                         <p style="text-align: right !important;">Read More...</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ if (isset($_GET['logout'])){
                 <div class="carousel-overlay">
                     <div class="carousel-caption d-none d-md-block">
                         <h2 class="py-2 text-left">How It Works</h2>
-                        <p class="text-left">Lorem ipsum dolor amet cornhole venmo knausgaard locavore listicle cray cloud bread poutine beard flannel irony flexitarian skateboard food truck. Pork belly enamel pin gluten-free blue bottle readymade jianbing thundercats prism, DIY mlkshk single-origin coffee jean shorts sustainable lo-fi. Before they sold out freegan subway tile migas, pug pabst PBRB. Succulents asymmetrical dreamcatcher cronut, kogi poke keytar humblebrag. Flannel fanny pack DIY iceland everyday carry. PBRB chicharrones pitchfork microdosing, raclette direct trade scenester swag artisan messenger bag air plant. Kogi polaroid mumblecore cardigan beard humblebrag poke neutra tilde slow-carb snackwave art party.</p>
+                        <p class="text-left" style="margin-bottom: 250px;">You can play Cricket trivia to UC, you could also purchase UC directly from our store , redeem these UC to get exciting offeres of official merchandise </p>
                         <a href="plans.php" type="button" class="btn btn-primary">See Pricing</a>
                     </div>
                 </div>
