@@ -10,6 +10,92 @@ a {
     text-decoration: none;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    left: 0;
+    z-index: 20;
+}
+
+
+.carousel {
+    margin-top:  80px;
+}
+/* This is important to make z-indexes work */
+.carousel-item {
+    -webkit-perspective: initial;
+    perspective: initial;
+}
+
+/* This is to make the image offset */
+.carousel-item img {
+    padding: 1rem;
+}
+
+.carousel-panel,
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.carousel-panel {
+    background-color: rgba(30,80,110,.334);
+}
+.carousel-overlay {
+    /*
+    Alternatively you could tint this, and 
+    remove the coloring from `.carousel-panel`
+    */
+    /*background-color: rgba(30,80,110,.334);*/
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    align-items: bottom;
+}/* This is important to make z-indexes work */
+.carousel-item {
+    -webkit-perspective: initial;
+    perspective: initial;
+}
+
+/* This is to make the image offset */
+.carousel-item img {
+    padding: 1rem;
+}
+
+.carousel-panel,
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.carousel-panel {
+    background-color: rgba(30,80,110,.334);
+}
+.carousel-overlay {
+    /*
+    Alternatively you could tint this, and 
+    remove the coloring from `.carousel-panel`
+    */
+    /*background-color: rgba(30,80,110,.334);*/
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    align-items: bottom;
+}
+
+/* userProfile */
+
+
 /* login.php */
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
